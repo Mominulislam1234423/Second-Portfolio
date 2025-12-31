@@ -15,7 +15,7 @@ header {
 
 .main {
     padding-top: 30px;
-    background-image:  url("../images/developer.png");
+    background-image: url("../images/developer.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -62,7 +62,7 @@ nav .list-ital ul {
     height: 380px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../images/hardy.png") , url("../images/header_bg.png ");
+    background-image: url("../images/hardy.png"), url("../images/header_bg.png ");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
@@ -108,7 +108,7 @@ nav .list-ital ul {
     cursor: pointer;
 }
 
-.about{
+.about {
     width: 70%;
     margin: 0 auto;
     margin-top: 120px;
@@ -116,27 +116,187 @@ nav .list-ital ul {
     border: 1px solid white;
 }
 
-.about-contant{
+.about-contant {
     border: 1px solid black;
     margin: 120px;
     background-color: white;
     text-align: center;
 }
 
-.about-contant p{
+.about-contant p {
     margin-top: 30px;
     color: gray;
 }
-.info{
+
+.info {
     color: gray;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.skils{
-    border: 2px solid red;
+.skils {
     width: 70%;
     margin: 0 auto;
     margin-top: 120px;
 }
+
+.skils h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skils p {
+    text-align: center;
+    width: 80%;
+    color: gray;
+    margin: 0 auto;
+}
+
+.itmes {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.itmes p {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.itmes i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.itam1 {
+    padding: 20px;
+    padding-right: 0;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.itam2 {
+    padding: 20px;
+    padding-right: 0;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+
+.itam3 {
+    padding: 20px;
+    padding-right: 0;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.itam4 {
+    padding: 20px;
+    padding-right: 0;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.my-Resume{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.my-Resume h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.Resume{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resume p{
+    color: gray;
+    font-size: 12px;
+}
+
+.Resume h5{
+    color: gray;
+    margin: 4px 0 10px 0;
+}
+
+.Resume h3{
+    margin-top: 16px;
+}
+
+.description{
+    padding-right: 100px;
+}
+
+.my-Resume .button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer{
+    background-color:  #FFF8F3;
+}
+
+#connect{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.connect{
+    padding-right: 100px;
+    margin-top: 120px;
+    width: 550px;
+}
+
+.connect p{
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+}
+
+.connect .icon{
+    margin-top: 20px;
+    color: #FD6E0A;
+    font-size: 20px;    
+}
+
+.connect .icon i{
+margin-left: 10px;
+}
+
+#message{
+    margin-top: 120px;
+}
+
+.message{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 180px;
+    gap: 20px;
+}
+.message input {
+    width: 280px;
+    height: 30px;
+    border: none;
+}
+
+.message textarea{
+    border: none;
+}
+
+.message .btn{
+    width: 120px;
+}
+
